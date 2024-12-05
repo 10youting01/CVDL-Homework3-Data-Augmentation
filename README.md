@@ -1,5 +1,4 @@
 # Homework3-Data-Augmentation
-# README: Image Captioning and Augmentation Pipeline
 
 ## Overview
 
