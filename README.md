@@ -95,14 +95,7 @@ pip install torch transformers diffusers Pillow
 - Ensure a `label.json` file exists with metadata for each image.
 
 ### 3. Run the Code
-- Run Stage 1 (caption generation):
-  ```python
-  python stage1_caption_generation.py
-  ```
-- Run Stage 2 (image augmentation):
-  ```python
-  python stage2_image_augmentation.py
-  ```
+- Run all
 
 ### 4. Evaluate Results
 - Compare generated images with original images using FID:
@@ -114,6 +107,3 @@ pip install torch transformers diffusers Pillow
 - The pipeline supports multiple configurations (e.g., BLIP2 2.7B or 6.7B).
 - Ensure adequate GPU memory for processing large models like BLIP2 and GLIGEN.
 - FID scores provide a quantitative measure of image quality.
-
-## Contact
-For questions or feedback, please feel free to reach out!
